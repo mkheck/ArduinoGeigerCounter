@@ -1,3 +1,16 @@
+/*
+ * Geiger.ino
+ * 
+ * This code interacts with the Alibaba RadiationD-v1.1 (CAJOE) Geiger counter board 
+ * and reports readings in CPM (Counts Per Minute).
+ * 
+ * Author: Mark A. Heckler (@MkHeck, mark.heckler@gmail.com)
+ * 
+ * License: MIT License
+ * 
+ * Please use freely with attribution. Thank you!
+ */
+
 #include <SPI.h>
 
 #define LOG_PERIOD 5000 //Logging period in milliseconds, recommended value 15000-60000.
